@@ -10,6 +10,7 @@
 |-- input/in(存放输入图片转换后的文件夹)
 |-- input_convert(存放输入图片的文件夹)
 |-- logs(tensorboard日志目录)
+|-- output_log(测试用的tensorboard的日志目录)
 |-- apply.ipynb(将训练好的模型用于预测给出的图片->应用层)
 |-- Dataset_process.py(对数据集进行预处理分类)
 |-- module_yy.py(基于nn.Module搭建模型)
@@ -17,6 +18,8 @@
 |-- test_yy.ipynb(用测试集测试模型的准确度)
 |-- ZH_Module.pth(保存训练好模型的参数)
 ```
++ 几个重要文件：
++ 
 注意：
 - 最后测试集的准确率测试放在test_yy.ipynb，运行代码既可以查看打印出的准确率
 - 如果想要识别传入的图片是哪一个类别，可以将图片放入input_convert文件夹中，运行apply.ipynb查看结果（不限制输入图片的size）[可从test_data测试集文件夹中复制图片到测试输出文件夹中]
