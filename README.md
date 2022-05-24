@@ -29,7 +29,7 @@
 - 如果想要识别传入的图片是哪一个类别，可以将图片放入input_convert文件夹中，运行apply.ipynb查看结果（不限制输入图片的size）[可从test_data测试集文件夹中复制图片到测试输出文件夹中]
 
 ```ansi
-网络结构：
+网络结构：(参考LeNet5模型)
 # 假设batch_size = 64
 part 1(特征提取)
 1. 卷积层1，kernel_size = 3, padding = same
